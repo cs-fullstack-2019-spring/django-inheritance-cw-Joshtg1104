@@ -1,0 +1,30 @@
+/*re-aligns h1 tag*/
+h1{
+    text-align: center;
+    margin: 1% 30%;
+    font-size: 41px;
+}
+/*re-aligns nav tag*/
+nav{
+    text-align: center;
+    font-size: 25px;
+}
+
+.resize{
+    width: 100px;
+    height: 100px;
+}
+
+.spacing{
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.fontedit{
+    text-align: center;
+    font-size: 25px;
+}
+.margin{
+    margin: 1% 12%;
+}

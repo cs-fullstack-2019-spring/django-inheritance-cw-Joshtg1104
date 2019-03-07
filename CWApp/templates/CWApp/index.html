@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'CWApp/css/index.css' %}">
+</head>
+<body>
+
+
+{% block header %}
+<img class="resize" src="{% static 'CWApp/images/wNkTECja_400x400.png' %}" alt="CodeCrew">
+<nav>
+    <p><a class="spacing" href="{% url 'index' %}">Home</a>
+        <a class="spacing" href="{% url 'aboutUs' %}">About</a>
+        <a class="spacing" href="{% url 'gallery' %}">Gallery</a>
+        <a class="spacing" href="{% url 'contactUs' %}">Contact</a>
+        <a class="spacing" href="{% url 'resources' %}">Resources</a>
+        <a href=""></a>
+        <a href=""></a></p>
+</nav>
+<hr>
+{% endblock %}
+
+{% block content %}
+<h1>Welcome to CodeCrew Code School</h1>
+{% endblock %}
+
+{% block footer %}
+{% endblock %}
+
+</body>
+</html>
