@@ -17,7 +17,7 @@ def gallery(request):
     return render(request, "CWApp/gallery.html")
 # contact page endpoint
 def contactUs(request):
-    return render(request, "CWApp/contactUs")
+    return render(request, "CWApp/contactUs.html")
 # resource page endpoint
 def resources(request):
     return render(request, "CWApp/resources.html")
